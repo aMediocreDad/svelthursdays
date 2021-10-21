@@ -1,0 +1,12 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	min-height: 100vh;
+	background: fixed;
+	background-image: conic-gradient(from -0.45turn at bottom right, deeppink, cyan, rebeccapurple);
+	display: grid;
+	place-content: center;
+}
